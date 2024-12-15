@@ -28,7 +28,7 @@ class MyGUI:
         self.title = Label(self.root, text='Sobriety Calculator', font=('Arial', 24))
         self.title.pack()
         #I am using the .place method for simplicity.
-        self.info = Label(self.root, text='This is a sobriety calculator. Enter your Sobriety\n date and it will tell you how many days it has been.', font=('Arial', 14))
+        self.info = Label(self.root, text='This is a sobriety calculator. Select your Sobriety\n date and it will calculate how many days it has been.', font=('Arial', 14))
         self.info.pack()
         self.calendar =Calendar(self.root, selectmode="day", year=2020, month=7, day=5)
         self.calendar.pack()
